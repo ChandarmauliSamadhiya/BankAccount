@@ -8,9 +8,9 @@ namespace ConsoleApp1
 {
 class BankAccount
 {
-    public string AccountNumber { get; private set; }
-    public string AccountHolderName { get; private set; }
-    public double Balance { get; private set; }
+    public string AccountNumber ;
+    public string AccountHolderName ;
+    public double Balance ;
 
     public BankAccount(string accountNumber, string accountHolderName, double initialBalance)
     {
