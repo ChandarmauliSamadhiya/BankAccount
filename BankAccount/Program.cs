@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
+namespace ConsoleApp1
+{
 class BankAccount
 {
     public string AccountNumber { get; private set; }
@@ -72,5 +73,6 @@ class Program
         account1.DisplayAccountDetails();
         Console.ReadLine();
     }
+  }
 }
 
