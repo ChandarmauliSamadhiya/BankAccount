@@ -25,7 +25,7 @@ class BankAccount
         if (amount > 0)
         {
             Balance += amount;
-            Console.WriteLine($"Deposited ${amount}. New balance: ${Balance}");
+            Console.WriteLine("Deposited :"+ "$"amount+" "+ "New balance:" +""+"$"+Balance);
         }
         else
         {
@@ -39,7 +39,7 @@ class BankAccount
         if (amount > 0 && amount <= Balance)
         {
             Balance -= amount;
-            Console.WriteLine($"Withdrawn ${amount}. New balance: ${Balance}");
+            Console.WriteLine("Withdrawn :" +""+"$"+amount+" "+ "New balance:" +"$"+Balance);
         }
         else
         {
@@ -50,9 +50,9 @@ class BankAccount
     // display details 
     public void DisplayAccountDetails()
     {
-        Console.WriteLine($"Account Number: {AccountNumber}");
-        Console.WriteLine($"Account Holder: {AccountHolderName}");
-        Console.WriteLine($"Balance: ${Balance}");
+        Console.WriteLine("Account Number:" + AccountNumber);
+        Console.WriteLine("Account Holder:" + AccountHolderName);
+        Console.WriteLine("Balance:" +  "$" +Balance);
     }
 }
 
